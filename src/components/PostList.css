@@ -1,0 +1,66 @@
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+.post-list .loading {
+  font-size: 50px;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.loading {
+  font-size: 40px;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.post-list .pagination {
+  margin-top: 20px;
+}
+
+.post-card {
+  margin: 10px;
+  position: relative;
+  width: 300px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.post-card .remove-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #f44336;
+}
+
+.post-card .card-content {
+  padding: 16px;
+}
+
+.post-card .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.post-card .body {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.post-card .footer {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}

@@ -1,0 +1,11 @@
+.post-card {
+  margin-bottom: 20px;
+  position: relative;
+  width: 300px;
+}
+
+.remove-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
